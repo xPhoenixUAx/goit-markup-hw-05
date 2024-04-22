@@ -602,3 +602,35 @@ margin-bottom: 4px;
 .comment-form{
   margin-bottom: 16px;
 }
+.checkbox{
+  margin-bottom: 24px;
+}
+.user-privacy-label{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.privacy-span{
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.input .visually-hidden:checked +.privacy-span{
+  border: none;
+  fill: #f4f4fd;
+}
+.link-privacy{
+  font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+  text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #4d5ae5;
+}
