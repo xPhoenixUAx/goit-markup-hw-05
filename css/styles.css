@@ -578,6 +578,7 @@ margin-bottom: 4px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-field-icon:focus{
-  fill: #4D5AE5;
+.input-place:focus + .input-field-icon{
+  fill:#4D5AE5;
 }
+  
