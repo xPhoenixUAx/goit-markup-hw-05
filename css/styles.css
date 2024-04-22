@@ -599,3 +599,6 @@ margin-bottom: 4px;
 .text-comment-place:focus{
   border-color: #4D5AE5;
 }
+.comment-form{
+  margin-bottom: 16px;
+}
