@@ -622,7 +622,8 @@ margin-bottom: 4px;
   justify-content: center;
   fill: transparent;
 }
-.input .visually-hidden:checked +.privacy-span{
+.privacy-check:checked + .user-privacy-label span{
+  background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
