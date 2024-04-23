@@ -636,6 +636,7 @@ margin-bottom: 4px;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .privacy-check:checked + .user-privacy-label span{
   background-color: #404bbf;
